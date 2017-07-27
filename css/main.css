@@ -12,8 +12,19 @@
   width: 100px;
 }
 
-.main-navigation .nav-link {
+.main-navigation-list .nav-link {
   font-weight: 500;
+}
+
+.section-header {
+  margin-bottom: 2rem;
+}
+
+.page-submenu.fa-ul {
+  margin-left: 1.5rem;
+}
+.page-submenu-item {
+  margin-bottom: .5rem;
 }
 
 .main-footer {
