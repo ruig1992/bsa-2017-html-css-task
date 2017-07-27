@@ -1,8 +1,57 @@
+.app-body a:focus,
+.app-body a:hover {
+  color: #ff9a00;
+  text-decoration: none;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
 .navbar-brand img {
   width: 100px;
 }
 
-.main-settings {
+.main-settings-link {
   color: #222;
   margin-left: 1rem;
+}
+
+.main-footer {
+  background-color: #151515;
+}
+.main-footer a {
+  color: rgba(255, 255, 255, .8);
+}
+
+.footer-post-info {
+  border-top: 2px solid #333;
+  padding-top: 2rem;
+}
+
+.footer-submenu-title {
+  display: block;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  color: #606068;
+  text-transform: uppercase;
+}
+.footer-submenu-item {
+  margin-top: .5rem;
+}
+
+.main-footer-postlinks li {
+  display: inline-block;
+  margin-right: .5em;
+}
+.main-footer-social .social-link {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #fff;
+  opacity: .8;
+}
+.main-footer-social .social-link.blue,
+.main-footer-social .social-link.blue:hover {
+  color: #4990e2;
+}
+.main-footer-social .social-link:hover {
+  color: #fff;
+  opacity: 1;
 }
