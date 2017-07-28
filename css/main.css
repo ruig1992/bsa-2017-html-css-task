@@ -30,8 +30,11 @@
   transition: all .2s;
 }
 
+.main-navigation {
+  background-color: #f9f9f9;
+}
 .navbar-brand img {
-  width: 100px;
+  max-width: 100px;
 }
 
 .main-settings-link {
